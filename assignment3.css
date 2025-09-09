@@ -1,0 +1,55 @@
+h1 {
+  color: Blue;
+  background-color: red;
+}
+h2 {
+  color: red;
+  background-color: blue;
+}
+h3 {
+  color: green;
+  background-color: yellow;
+}
+
+h5 {
+  color: orange;
+  background-color: green;
+}
+h4 {
+  color: purple;
+  background-color: lightcyan;
+}
+#specialID {
+    color: aquamarine;
+  background-color: red;
+}
+.specialp {
+  color: magenta;
+  background-color: bisque;
+}
+.specialc {
+  color: lightblue;
+  background-color: darkblue;
+}
+
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+
+a:hover {
+  color: yellow;
+}       
+.spanstyle {
+  color: cornflowerblue;
+  background-color: darkblue;
+} 
+#divexample {
+    color: orange;
+  background-color: green;
+}
