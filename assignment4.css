@@ -1,0 +1,105 @@
+h1 {
+  color: orange;
+  background-color: red;
+  font-style: italic;
+  font-weight: normal;
+}
+h2 {
+  color: orange;
+  background-color: blue;
+  font-style: italic;
+  font-weight: normal;
+}
+h3 {
+  color: orange;
+  background-color: yellow;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h5 {
+  color: orange;
+  background-color: green;
+  font-style: italic;
+  font-weight: normal;
+}
+h4 {
+  color: orange;
+  background-color: lightcyan;
+  font-style: italic;
+  font-weight: normal;
+}
+#specialID {
+    color: aquamarine;
+  background-color: red;
+}
+#specialID2 {
+    color: aquamarine;
+  background-color: red;
+  text-align: center;
+}
+#specialID3 {
+    color: aquamarine;
+  background-color: red;
+  text-align: justify;
+}
+.specialp {
+  color: magenta;
+  background-color: bisque;
+}
+.specialc {
+  color: lightblue;
+  background-color: darkblue;
+}
+.specialc2 {
+  color: lightblue;
+  background-color: darkblue;
+  text-align: center;
+}
+.specialc3 {
+  color: lightblue;
+  background-color: darkblue;
+  text-align: justify;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+
+a:hover {
+  color: yellow;
+}       
+.spanstyle {
+  color: cornflowerblue;
+  background-color: darkblue;
+} 
+#divexample {
+    color: orange;
+  background-color: green;
+}
+#divexample2 {
+    font-family: Arial, Helvetica;
+}
+.textcenter {
+    text-align: center;
+}
+.imgbox {
+    border: 5px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
+
+
+body {
+    background-color: #0000ff;
+    background-image: url(redbird.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
