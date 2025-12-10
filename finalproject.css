@@ -8,39 +8,47 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
-  grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
+
 }
 
-/* style for dummy columns, delete and replace with your own CSS */
-.a
-  background-color: rgba(255,0,0,.25);
-  grid-column: span 1;
-
+#a {
+  text-align:left;
+}
+#b {
+  text-align:center;
+}
+#c {
+  text-align:right;
+}
+  
 .flyimg {
     float: center;
-    margin-right: 24px;
+    justify-content: center;
+    margin-right: 100px;
     margin-bottom: 24px;
     border: 3px solid black;
     padding: 10px 10px 10px 10px;
-    text-align: center;
-    grid-column: span 12;
+  
+
 }
 .keysimg {
     float: center;
+    justify-content: center;
     margin-right: 24px;
     margin-bottom: 24px;
     border: 3px solid black;
     padding: 10px 10px 10px 10px;
-    grid-column: span 12;
+  
 }
 .clearfloat {
     clear: both;
 }
 header { border: 1px solid black;
   margin: 10px 10px 10px 10px;
-  grid-column: span 12;
-background-color: rgb(129, 215, 255);
+background-color: rgb(0, 0, 0);
 padding-left: 24px ;}
+
+
 
 
 nav {grid-column: span 12;
@@ -89,8 +97,9 @@ nav li {
    padding: 0px;
    margin-bottom: 20px;
    margin-right: 20px;
-   background-color: red;
+   background-color: rgb(0, 26, 197);
    display: inline-block;
+   height: 39px;
 }
 nav li a {
     color: white;
