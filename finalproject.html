@@ -6,11 +6,16 @@
 	<title>Blank 1200</title>
 	<link href="finalproject.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css" />
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.css" />
+
+
+
+  <link rel="stylesheet" href="fancy.css">
+
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script> 
-
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script>
 
 	<h1 class="a">Lucas' Website</h1>
 	
@@ -18,20 +23,22 @@
 
 <nav>
   <ul class="link">
-    <li><a href="#" target="_blank">Home</a></li>
-    <li><a href="#" target="_blank">Projects</a></li>
-    <li><a href="#" target="_blank">Audio</a></li>
+    <li><a href="finalproject.html" target="_blank">Home</a></li>
+    <li><a href="projects.html" target="_blank">Projects</a></li>
+    <li><a href="audio.html" target="_blank">Audio</a></li>
 
 
-  </ul>
+  </ul>   
 </nav>
 <div id="wrapper"></div>
 <body>
 	  
 
-
-  <p class="f"></p>
-  <p class=" g"></p>
+<div class="f-carousel" id="myCarousel" >
+    <div class="f-carousel__slide"><img src="keys.webp"></div>
+    <div class="f-carousel__slide"><img src="Ai.webp"></div>
+    <div class="f-carousel__slide"><img src="mic.webp"></div>
+    </div>
   
 		
 		<div class="dummycolumn">
@@ -53,11 +60,18 @@
 		<div class="dummycolumn"></div>
 		<div class="dummycolumn"></div>
 	</div>
-	<script>
-    const container = document.getElementById("myCarousel");
-    const options = { infinite: false };
-    Carousel(container, options).init();
+	<script>   
+   Fancybox.bind("[data-fancybox]", {});
 
+   const container = document.getElementById("myCarousel");
+const options = {
+  // Your custom options
+};
+Carousel(container, options, { Arrows }).init();
+
+    const container2 = document.getElementById("secondCarousel");
+    const options2 = { infinite: false };
+    Carousel(container2, options2, { Arrows }).init();
 </script>
 </body>
 
@@ -68,5 +82,3 @@
 
 
 </html>
- 
- 
