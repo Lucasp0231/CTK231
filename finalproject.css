@@ -4,16 +4,13 @@
 #wrapper {
   margin: 24px auto;
   padding: 24px;
-  background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
 
 }
 
-#a {
-  text-align:left;
-}
+
 #b {
   text-align:center;
 }
@@ -57,7 +54,8 @@ nav {grid-column: span 12;
  }
 
 body {
-  background-color: #ffffff;
+  background-image: url(stars.webp);
+ 
   grid-template-rows: 20px;
 }
 
@@ -75,9 +73,17 @@ border: 3px solid black;
 
 .a {
 font-family: helvetica;
-color: #000000;
+color: white;
 margin: 30px;
 text-align: center;
+grid-column: span 3;
+grid-row: 100px;
+}
+.b {
+font-family: helvetica;
+color: white;
+margin: 30px;
+text-align: left;
 grid-column: span 3;
 grid-row: 100px;
 }
