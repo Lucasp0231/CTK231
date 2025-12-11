@@ -9,15 +9,13 @@
   grid-column-gap: 24px;
 
 }
-
-
 #a{margin: 24px auto;
   padding: 24px;
   grid-template-columns: span 12;
   grid-column-gap: 12px;}
-
-#b {
-  text-align:center;
+main {
+  color: white;
+  grid-column: span 6;
 }
 #c {
   text-align:right;
@@ -28,15 +26,14 @@
     justify-content: center;
     margin-right: 100px;
     margin-bottom: 24px;
-    border: 3px solid black;
+    border: 3px solid white;
     padding: 10px 10px 10px 10px;
-  
-.Mixing {
-  border: #000000;
-
-
 }
-
+.flyon {
+   float: right;
+   justify-content: right;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
 }
 .keysimg {
     float: center;
