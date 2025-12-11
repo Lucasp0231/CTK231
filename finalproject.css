@@ -11,6 +11,11 @@
 }
 
 
+#a{margin: 24px auto;
+  padding: 24px;
+  grid-template-columns: span 12;
+  grid-column-gap: 12px;}
+
 #b {
   text-align:center;
 }
@@ -26,6 +31,11 @@
     border: 3px solid black;
     padding: 10px 10px 10px 10px;
   
+.Mixing {
+  border: #000000;
+
+
+}
 
 }
 .keysimg {
@@ -40,9 +50,9 @@
 .clearfloat {
     clear: both;
 }
-header { border: 1px solid black;
+header { 
   margin: 10px 10px 10px 10px;
-background-color: rgb(0, 0, 0);
+text-align: center;
 padding-left: 24px ;}
 
 
@@ -62,7 +72,7 @@ body {
 
 
 footer {  grid-column: span 12;
-background-color: rgb(148, 253, 255);
+background-color: rgb(0, 26, 197);
 color: rgb(255, 255, 255);
 text-align: center;
 font-style: italic;
@@ -145,7 +155,7 @@ nav li a:hover {
 #myCarousel, secondCarousel .f-carousel__slide {
   text-align: center;
   padding: 24px;
-  background: #eee;
+
 }
 .f-carousel {
   --f-arrow-pos: 10px;
